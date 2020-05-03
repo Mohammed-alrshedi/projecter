@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    background: #181810;
+height: 80px;
+}
+
+.iten-nav{
+    text-decoration: none;
+    display: inline-block;
+    color:white;
+    margin: 6px;
+    padding: 5px;
+    font-size: 20px;
+    padding: 16px;;
+}
+
+ul > .lo {
+
+    float: left;
+    margin: 15px;;
+
+}
+
+.iten-nav  a {
+    color:white;
+
+    list-style: none;
+}
+
+.iten-nav  > a:hover {
+    color: aqua;
+    text-decoration: none;
+
+}
+
+.iten-nav  > a:focus {
+    color: aqua;
+    text-decoration: none;
+
+}
+
+.router-link-exact-active  a{
+    color: aqua;
+}
+
+.cardsp{
+    WIDTH: 20%; DISPLAY: inline-block;  MARGIN: 10PX;
+}
